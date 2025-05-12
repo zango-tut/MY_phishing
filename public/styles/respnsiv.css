@@ -1,0 +1,233 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}
+
+.user-credential-div {
+    margin: auto;
+    width: 90%;
+    max-width: 350px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+}
+
+.user-email-place,
+.user-password-place {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.instagram-logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.login-button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.or-section {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.or-divider {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or-text {
+    margin: 0 10px;
+    color: rgb(115, 115, 115);
+    font-size: small;
+}
+
+.facebook-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.facebook-login-text {
+    margin-left: 10px;
+    color: #385185;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot-password-text {
+    text-align: center;
+    color: #3578E5;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.sign-up-div {
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+}
+
+.sign-up-text {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bl-text {
+    color: #3578E5;
+    cursor: pointer;
+}
+
+.get-app {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.get-app-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.app-google {
+    width: 150px;
+}
+
+.app-microsoft {
+    width: 125px;
+    margin-left: 5px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(115, 115, 115);
+}
+
+.first-line,
+.second-line {
+    margin: 10px 0;
+}
+
+.f-line-elements,
+.s-line-elements {
+    margin-right: 10px;
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+}
+
+.f-line-elements:hover {
+    text-decoration: underline;
+}
+.hedding{
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 124, 124);
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .user-credential-div {
+        width: 70%;
+        padding: 15px;
+    }
+
+    .instagram-logo {
+        width: 150px;
+    }
+
+    .login-button {
+        height: 35px;
+    }
+
+    .facebook-section {
+        flex-direction: column;
+    }
+
+    .facebook-login-text {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .first-line,
+    .second-line {
+        font-size: 14px;
+    }
+    .sign-up-div{
+        margin-top: 100px;
+    }
+    .footer{
+        width: 80%;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    footer h5{
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .user-credential-div {
+        width: 70%;
+    }
+
+    .footer{
+        margin-top: 40px;
+        
+    }
+}
+
+@media (min-width: 901px) {
+    .user-credential-div {
+        width: 350px;
+    }
+}
